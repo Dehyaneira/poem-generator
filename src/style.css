@@ -1,4 +1,67 @@
 body {
-  background-color: pink;
-  color: white;
+  background-color: rgba(255, 192, 203, 0.349);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a{
+    color:rgb(250, 127, 213);
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  background-color: rgba(253, 204, 241, 0.562);
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 0px 10px rgb(247, 196, 231);
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 13px;
+  border: 1px solid rgb(250, 127, 213);
+  border-radius: 50px;
+  font-size: 16px;
+  width: 80%;
+  line-height: 20px;
+  color: gray;
+}
+.submit-button {
+  width: 20%;
+  background-color: rgba(255, 192, 203, 0.349);
+  border: 1px solid rgb(250, 127, 213);
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.poem{
+    font-size: 16px;
+    padding: 20px;
+   background-color: #fff;
+   border-radius: 10px; 
+   line-height: 2;
+   border-left: 3px solid rgb(250, 127, 213);
+   box-shadow: 0px 0px 10px rgb(247, 196, 231);
+
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: gray;
+  margin-top: 20px;
 }
