@@ -4,45 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem generator</title>
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>AI Ecuadorian Poem Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a word..."
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="poem">
-        The poem will be here
-        <br />
-        The next árt of the poem
-      </div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/Dehyaneira" target="_blank">Dehyaneira </a>
-        and is open-sourced on
-        <a href="https://github.com/Dehyaneira/poem-generator" target="_blank"
-          >GitHub</a
-        >
-        and hosted on
-        <a href="https://jade-caramel-6d5fcb.netlify.app/" target="_blank"
-          >Netlify</a
-        >
-      </p>
-    </footer>
-    <script src="src/index.js"></script>
-  </div>
+      <header>
+        <h1>AI Ecuadorian Poem Generator</h1>
+      </header>
+      <main>
+        <form id="instructions">
+          <input
+            type="text"
+            placeholder="Enter a word..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem" id="poem"></div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/Dehyaneira" target="_blank"
+            >Dehyaneira
+          </a>
+          and is open-sourced on
+          <a href="https://github.com/Dehyaneira/poem-generator" target="_blank"
+            >GitHub</a
+          >
+          and hosted on
+          <a href="https://jade-caramel-6d5fcb.netlify.app/" target="_blank"
+            >Netlify</a
+          >
+        </p>
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
